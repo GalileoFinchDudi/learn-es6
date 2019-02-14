@@ -1,0 +1,6 @@
+// babel配置文件
+{
+    "presets": ["@babel/env", // 最新轉碼規則
+        "@babel/preset-react"], // react 轉碼規則
+    "plugins": []
+}
