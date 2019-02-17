@@ -1,0 +1,15 @@
+{
+  "name": "c3",
+  "version": "1.0.0",
+  "description": "chapter 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Galileo Finch",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/register": "^7.0.0"
+  }
+}
