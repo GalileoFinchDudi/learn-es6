@@ -213,6 +213,7 @@ require('@babel/register')
 // console.log(move({}));
 // console.log(move());
 
+<<<<<<< HEAD
 // console.log([1, undefined, 3].map((x = 'yes') => x));
 
 // let [(a)] = [1];
@@ -253,3 +254,6 @@ require('@babel/register')
 // let { id, status, data: number } = jsonData;
 
 // console.log(id, status, number);
+=======
+// console.log([1, undefined, 3].map((x = 'yes') => x));
+>>>>>>> 3cfbd4416490406862740a1b4a7acf641973ff45
