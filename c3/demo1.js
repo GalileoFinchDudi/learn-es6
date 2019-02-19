@@ -213,4 +213,43 @@ require('@babel/register')
 // console.log(move({}));
 // console.log(move());
 
-console.log([1, undefined, 3].map((x = 'yes') => x));
+// console.log([1, undefined, 3].map((x = 'yes') => x));
+
+// let [(a)] = [1];
+
+// let x = 1;
+// let y = 2;
+
+// [x, y] = [y, x];
+
+// console.log(x);
+// console.log(y);
+
+// function func () {
+//   return [1, 2, 3];
+// }
+
+// let [a, b, c] = func();
+
+// function func2() {
+//   return {
+//     foo: 1,
+//     bar: 2
+//   }
+// }
+
+// let { foo, bar } = example();
+
+// function f([x, y, z])  { return x + y + z };
+
+// console.log(f([1, 2, 3]));
+
+// let jsonData = {
+//   id: 42,
+//   status: "OK",
+//   data: [867, 5309]
+// };
+
+// let { id, status, data: number } = jsonData;
+
+// console.log(id, status, number);
